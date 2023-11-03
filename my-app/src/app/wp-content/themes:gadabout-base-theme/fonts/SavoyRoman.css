@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SavoyRoman';
+    src: url('fonts/SavoyRoman.eot');
+    src: url('fonts/SavoyRoman.eot') format('embedded-opentype'),
+         url('fonts/SavoyRoman.woff2') format('woff2'),
+         url('fonts/SavoyRoman.woff') format('woff'),
+         url('fonts/SavoyRoman.ttf') format('truetype'),
+         url('fonts/SavoyRoman.svg#SavoyRoman') format('svg');
+}

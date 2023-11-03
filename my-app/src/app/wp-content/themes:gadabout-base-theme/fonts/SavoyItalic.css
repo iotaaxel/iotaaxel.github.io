@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SavoyItalic';
+    src: url('fonts/SavoyItalic.eot');
+    src: url('fonts/SavoyItalic.eot') format('embedded-opentype'),
+         url('fonts/SavoyItalic.woff2') format('woff2'),
+         url('fonts/SavoyItalic.woff') format('woff'),
+         url('fonts/SavoyItalic.ttf') format('truetype'),
+         url('fonts/SavoyItalic.svg#SavoyItalic') format('svg');
+}

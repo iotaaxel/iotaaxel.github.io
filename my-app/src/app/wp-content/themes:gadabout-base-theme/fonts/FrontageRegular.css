@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FrontageRegular';
+    src: url('fonts/FrontageRegular.eot');
+    src: url('fonts/FrontageRegular.eot') format('embedded-opentype'),
+         url('fonts/FrontageRegular.woff2') format('woff2'),
+         url('fonts/FrontageRegular.woff') format('woff'),
+         url('fonts/FrontageRegular.ttf') format('truetype'),
+         url('fonts/FrontageRegular.svg#FrontageRegular') format('svg');
+}

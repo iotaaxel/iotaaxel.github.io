@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MintTypeProbaProRegular';
+    src: url('fonts/MintTypeProbaProRegular.eot');
+    src: url('fonts/MintTypeProbaProRegular.eot') format('embedded-opentype'),
+         url('fonts/MintTypeProbaProRegular.woff2') format('woff2'),
+         url('fonts/MintTypeProbaProRegular.woff') format('woff'),
+         url('fonts/MintTypeProbaProRegular.ttf') format('truetype'),
+         url('fonts/MintTypeProbaProRegular.svg#MintTypeProbaProRegular') format('svg');
+}
