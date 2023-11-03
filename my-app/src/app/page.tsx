@@ -3,6 +3,8 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    //TODO
+    <div className="Home">
+      <iframe src="index.html"></iframe>
+    </div>
   )
 }
