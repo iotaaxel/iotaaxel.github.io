@@ -59,4 +59,4 @@ function init() {
     }
     
 }
-google.maps.event.addEventListener(window, 'load', init);
+$(window).on('load', init);
