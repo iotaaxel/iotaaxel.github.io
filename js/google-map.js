@@ -59,4 +59,4 @@ function init() {
     }
     
 }
-$(window).on('load', init);
+window.addEventListener('load', init);
