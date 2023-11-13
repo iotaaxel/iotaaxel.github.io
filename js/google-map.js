@@ -33,6 +33,7 @@ function initMap() {
   });
 
   const address = '228 Park Ave S, New York, NY 10003';
+  geocoder = new google.maps.Geocoder();
   geocoder.geocode( { 'address': address}, function(results, status) {
     if (status == 'OK') {
       map.setCenter(results[0].geometry.location);
