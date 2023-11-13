@@ -33,23 +33,17 @@ function initMap() {
   });
 
   const address = '228 Park Ave S, New York, NY 10003';
-  geocoder.geocode( { 'address': address});
-}
-
-function geocode(request) {
-  geocoder
-    .geocode(request)
-    .then((result) => {
-      const { results } = result;
-
+  geocoder.geocode( { 'address': address}, function(results, status) {
+    if (status == 'OK') {
       map.setCenter(results[0].geometry.location);
-      marker.setPosition(results[0].geometry.location);
-      marker.setMap(map);
-      return results;
-    })
-    .catch((e) => {
-      alert("Geocode was not successful for the following reason: " + e);
-    });
+      var marker = new google.maps.Marker({
+          map: map,
+          position: results[0].geometry.location
+      });
+    } else {
+      alert('Geocode was not successful for the following reason: ' + status);
+    }
+  });
 }
 
 window.addEventListener('load', initMap);
