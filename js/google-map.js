@@ -1,9 +1,10 @@
+
 var google;
 let map;
 let marker;
 let geocoder;
 
-// See https://developers.google.com/maps/documentation/javascript/examples/geocoding-simple#maps_geocoding_simple-javascript
+// See https://developers.google.com/maps/documentation/javascript/geocoding
 function initMap() {
   // Create the Google Map using out element and options defined below
   // Get the HTML DOM element that will contain your map 
@@ -51,4 +52,4 @@ function geocode(request) {
     });
 }
 
-window.initMap = initMap;
+window.addEventListener('load', initMap);
