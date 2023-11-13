@@ -1,5 +1,6 @@
 
 var google;
+var address;
 let map;
 let marker;
 let geocoder;
@@ -32,7 +33,7 @@ function initMap() {
     ]
   });
 
-  const address = '228 Park Ave S, New York, NY 10003';
+  document.getElementById('address').value = '228 Park Ave S, New York, NY 10003';
   geocoder = new google.maps.Geocoder();
   geocoder.geocode( { 'address': address}, function(results, status) {
     if (status == 'OK') {
