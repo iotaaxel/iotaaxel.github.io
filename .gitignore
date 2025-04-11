@@ -1,0 +1,12 @@
+# Ignore unnecessary files/folders
+*.log
+*.DS_Store
+node_modules/
+vendor/
+
+# Ensure these files are not ignored
+!*.html
+!*.css
+!*.js
+!*.md
+

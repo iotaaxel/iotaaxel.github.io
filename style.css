@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, rgba(255, 182, 193, 1) 0%, rgba(255, 105, 180, 1) 100%);
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+h1, h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FF1493; /* Hot Pink */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro, .aesthetic {
+    text-align: center;
+    margin: 40px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: #FF1493;
+}
